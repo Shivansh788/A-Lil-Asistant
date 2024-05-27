@@ -7,6 +7,7 @@ else:
     print("Wrong ID or PASS")
     exit()
 
+# libraries import
 from datetime import datetime
 from AppOpener import open, close
 import speech_recognition as sr
@@ -38,6 +39,7 @@ helping = ''' \nHere is how the ai works \n
 
  '''
 
+#Functions created
 def sum(a,b):
     return a+b
 def sub(a,b):
@@ -55,11 +57,9 @@ def table(a,i):
     for i in range(10):
         print(a*i)
 
-
+#Greatings
 print("Welcome Back Sir \n How can i help you today")
 print(datetime.now())
-
-
 
 
 #driver code
